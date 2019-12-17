@@ -64,19 +64,6 @@ import static com.predixtor.beePic.utils.CreateAudioFileKt.createAudioFile;
 public class CameraActivity extends AppCompatActivity {
 
 
-    // TODO: de esta actividad
-
-    // - Para es contemplar la idea de utilizar una async task para la grabación del video, porque
-    //   se está bloqueando la pantalla cuando se toman fotos y video: en las
-    //   situaciones en las que se esta grabando o tomando una foto, bloquear los demás.
-    //   iconos de la cámara para que no haya una interferencia
-    // - se deberia poder tomar fotos al tiempo que se toma un video
-
-    // TODO: de otras actividades
-    // . opcion para cargar archivos de otras fuentes, como, por ejemplo, whats app
-    // - idea de Marggy de dar la opcion de ponerle claves a las carpetas
-
-
     // Camera used to start image capture settings, start/stop preview, snap pictures, and retrieve
     // frames for encoding for video.
     private Camera mCamera;
